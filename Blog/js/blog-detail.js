@@ -1,4 +1,4 @@
-// Blog Detail Reader
+﻿// Blog Detail Reader
 
 const CONFIG = {
     API_DETAIL: '../api/blog/get_blog_detail.php',
@@ -103,7 +103,7 @@ function renderArticle(blog) {
     const plainText = content.replace(/<[^>]*>/g, '');
     const readTime = calculateReadingTime(plainText);
     
-    document.title = `${cleanTitle} - Sigapi PPKS`;
+    document.title = `${cleanTitle} - Siapi PPKS`;
 
     const html = `
         <header class="article-header-immersive" data-aos="fade-down">
@@ -227,7 +227,7 @@ async function fetchDetail() {
             const mappedData = {
                 id: blogData.id || blogData.slug,
                 judul: blogData.title || blogData.judul,
-                author: { name: blogData.author || 'Tim Sigapi' },
+                author: { name: blogData.author || 'Tim Siapi' },
                 created_at: blogData.date || blogData.created_at,
                 isi_postingan: blogData.content || blogData.isi_postingan,
                 gambar_header_url: blogData.image || blogData.gambar_header_url

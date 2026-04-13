@@ -1,5 +1,5 @@
-/**
- * SIGAPI PPKPT - Sidebar & Auth Global Logic (Final Version)
+﻿/**
+ * SIAPI PPKPT - Sidebar & Auth Global Logic (Final Version)
  * File: Admin/assets/js/sidebar.js
  */
 

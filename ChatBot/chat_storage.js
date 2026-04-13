@@ -1,5 +1,5 @@
-/**
- * SIGAPI PPKS - Chat Storage Manager
+﻿/**
+ * SIAPI PPKS - Chat Storage Manager
  * 
  * Mengelola penyimpanan chat history di browser dengan enkripsi AES-GCM.
  * Mendukung session continuity hingga 7 hari dengan auto-cleanup.
@@ -16,7 +16,7 @@
  * - Data sensitif tidak tersimpan plain text di browser
  * - Compliance dengan privacy-first approach
  * 
- * @package SIGAPI_PPKS
+ * @package SIAPI_PPKS
  * @subpackage ChatBot
  */
 
@@ -25,10 +25,10 @@ const ChatStorage = (function() {
 
     // Konfigurasi
     const CONFIG = {
-        storageKey: '_sigapi_chat_history',
-        encryptionKeyName: '_sigapi_chat_key',
-        ivKeyName: '_sigapi_chat_iv',
-        timestampKey: '_sigapi_chat_timestamp',
+        storageKey: '_siapi_chat_history',
+        encryptionKeyName: '_siapi_chat_key',
+        ivKeyName: '_siapi_chat_iv',
+        timestampKey: '_siapi_chat_timestamp',
         maxAgeDays: 7,
         maxMessages: 100, // Batas pesan untuk performa
         algorithm: 'AES-GCM'

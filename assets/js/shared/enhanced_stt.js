@@ -1,5 +1,5 @@
-/**
- * SIGAPI Enhanced Speech-to-Text Module v3.0 - ADVANCED
+﻿/**
+ * SIAPI Enhanced Speech-to-Text Module v3.0 - ADVANCED
  * =====================================================
  * Features:
  * - UNLIMITED continuous recognition (auto-restart workaround)

@@ -1,5 +1,5 @@
-/**
- * SIGAPI PPKPT - Shared Mock Data
+﻿/**
+ * SIAPI PPKPT - Shared Mock Data
  * Data ini digunakan oleh semua halaman (Admin, Psikolog, User/Monitoring)
  * Sinkronisasi terjamin karena semuanya membaca dari satu sumber yang sama.
  */
@@ -76,7 +76,7 @@ const MOCK_DATA = {
             waktu_kejadian: '2025-01-10',
             lokasi_kejadian: 'Gedung Rektorat Lantai 3, Kampus Telkom University Surabaya',
             detail_kejadian: 'Saya mengalami intimidasi verbal oleh senior di organisasi kampus. Kejadian terjadi saat rapat internal organisasi. Senior tersebut melakukan tindakan bullying secara verbal dan mengancam akan mengeluarkan saya dari organisasi jika melaporkan kejadian ini.',
-            sumber_laporan: 'Website SIGAPI',
+            sumber_laporan: 'Website SIAPI',
             status_darurat: false,
             bukti: ['screenshot_chat.jpg', 'rekaman_audio.mp3'],
             // Psikolog assignment
@@ -161,7 +161,7 @@ const MOCK_DATA = {
             waktu_kejadian: '2025-01-05',
             lokasi_kejadian: 'Ruang Dosen Gedung B, Kampus Telkom University Surabaya',
             detail_kejadian: 'Teman saya mengalami perlakuan tidak menyenangkan dari dosen pembimbing akademik. Dosen tersebut memberikan tekanan berlebihan dan mengancam akan memberikan nilai buruk jika tidak menuruti keinginannya. Teman saya merasa tertekan dan tidak berani melapor sendiri.',
-            sumber_laporan: 'Website SIGAPI',
+            sumber_laporan: 'Website SIAPI',
             status_darurat: false,
             bukti: ['screenshot_email.jpg'],
             psikolog_id: null,
@@ -198,7 +198,7 @@ const MOCK_DATA = {
             waktu_kejadian: '2025-01-18',
             lokasi_kejadian: 'Area Parkir Kampus Telkom University Surabaya',
             detail_kejadian: 'Saya mengalami pelecehan verbal dan fisik oleh mahasiswa tingkat atas di area parkir kampus. Kejadian terjadi sore hari ketika area kampus sudah mulai sepi. Pelaku melakukan tindakan yang membuat saya sangat tidak nyaman dan takut.',
-            sumber_laporan: 'Website SIGAPI',
+            sumber_laporan: 'Website SIAPI',
             status_darurat: true,
             bukti: ['foto_cctv.jpg', 'rekaman_video.mp4'],
             psikolog_id: 1,
@@ -281,7 +281,7 @@ const MOCK_DATA = {
             waktu_kejadian: '2025-01-28',
             lokasi_kejadian: 'Kantin Kampus Telkom University Surabaya',
             detail_kejadian: 'Teman seangkatan melakukan pelecehan verbal secara berulang di area kantin kampus. Pelaku sering membuat komentar yang tidak pantas dan bersifat seksual di depan mahasiswa lain, membuat saya sangat tidak nyaman.',
-            sumber_laporan: 'Website SIGAPI',
+            sumber_laporan: 'Website SIAPI',
             status_darurat: false,
             bukti: ['screenshot_chat_1.jpg', 'screenshot_chat_2.jpg', 'foto_bukti.jpg'],
             psikolog_id: 1,
@@ -347,7 +347,7 @@ const MOCK_DATA = {
             title: 'Langkah-Langkah Melaporkan Kekerasan Seksual di Kampus',
             slug: 'langkah-melaporkan-kekerasan',
             excerpt: 'Panduan lengkap tentang bagaimana cara melaporkan tindak kekerasan seksual di lingkungan kampus melalui jalur resmi Satgas PPKPT.',
-            content: '<p>Melaporkan kekerasan seksual memang membutuhkan keberanian besar. Namun, langkah ini sangat penting untuk melindungi diri Anda dan mencegah kejadian serupa terjadi pada orang lain.</p><h3>Langkah 1: Pastikan Keselamatan Anda</h3><p>Prioritas utama adalah keselamatan Anda. Jauhi pelaku dan cari tempat yang aman.</p><h3>Langkah 2: Kumpulkan Bukti</h3><p>Simpan pesan, screenshot, foto, atau rekaman yang relevan. Jangan menghapus bukti apapun.</p><h3>Langkah 3: Laporkan ke SIGAPI</h3><p>Gunakan platform SIGAPI untuk melaporkan kejadian secara rahasia. Klik tombol LAPOR di website atau hubungi hotline kami.</p><h3>Langkah 4: Dapatkan Pendampingan</h3><p>Anda akan mendapatkan kode monitoring untuk memantau progress dan berhak atas pendampingan psikologis dan hukum.</p>',
+            content: '<p>Melaporkan kekerasan seksual memang membutuhkan keberanian besar. Namun, langkah ini sangat penting untuk melindungi diri Anda dan mencegah kejadian serupa terjadi pada orang lain.</p><h3>Langkah 1: Pastikan Keselamatan Anda</h3><p>Prioritas utama adalah keselamatan Anda. Jauhi pelaku dan cari tempat yang aman.</p><h3>Langkah 2: Kumpulkan Bukti</h3><p>Simpan pesan, screenshot, foto, atau rekaman yang relevan. Jangan menghapus bukti apapun.</p><h3>Langkah 3: Laporkan ke SIAPI</h3><p>Gunakan platform SIAPI untuk melaporkan kejadian secara rahasia. Klik tombol LAPOR di website atau hubungi hotline kami.</p><h3>Langkah 4: Dapatkan Pendampingan</h3><p>Anda akan mendapatkan kode monitoring untuk memantau progress dan berhak atas pendampingan psikologis dan hukum.</p>',
             author: 'Tim Satgas PPKPT',
             category: 'Panduan',
             date: '2025-01-20',

@@ -1,4 +1,4 @@
-// FAB SIGAPI - Direct Chat Button
+﻿// FAB SIAPI - Direct Chat Button
 
 (function () {
   "use strict";

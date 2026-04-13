@@ -1,5 +1,5 @@
-/**
- * SIGAPI PPKS - TemanKu Chatbot v4.0
+﻿/**
+ * SIAPI PPKS - TemanKu Chatbot v4.0
  * 
  * Chatbot dengan fitur-fitur baru:
  * - Integrasi dengan ChatStorage untuk persistence terenkripsi
@@ -7,7 +7,7 @@
  * - Context restoration dari localStorage
  * - Improved UX dengan session info
  * 
- * @package SIGAPI_PPKS
+ * @package SIAPI_PPKS
  * @subpackage ChatBot
  */
 

@@ -1,5 +1,5 @@
-/**
- * SIGAPI PPKPT — Legal Support Dashboard Logic
+﻿/**
+ * SIAPI PPKPT — Legal Support Dashboard Logic
  * Architecture: Modular, Event-Driven, State-Managed
  */
 document.addEventListener('DOMContentLoaded', () => {

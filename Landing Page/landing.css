@@ -1,4 +1,4 @@
-/* Global Fix for Horizontal Overflow - CRITICAL */
+﻿/* Global Fix for Horizontal Overflow - CRITICAL */
 html, body {
   overflow-x: hidden;
   width: 100%;
@@ -2726,7 +2726,7 @@ html, body {
 }
 
 /* ============================================
-   KABAR SIGAPI - Article Carousel Section
+   KABAR SIAPI - Article Carousel Section
    ============================================ */
 
 /* Entrance Animations */

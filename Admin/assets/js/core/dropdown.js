@@ -1,5 +1,5 @@
-/**
- * SIGAPI PPKPT - Custom Dropdown
+﻿/**
+ * SIAPI PPKPT - Custom Dropdown
  * File: assets/js/dropdown.js
  *
  * Custom dropdown functionality to replace Bootstrap dropdowns
